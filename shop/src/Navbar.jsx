@@ -9,7 +9,8 @@ export default function Navbar(props) {
   return (
     <nav className="navbar">
       <NavLink to="/" className="nav-brand">
-        SuperM
+        Mārtiņa Medus
+        /* logo */
       </NavLink>
       <ul>
         <li className="nav-item">
@@ -17,7 +18,7 @@ export default function Navbar(props) {
             className={({ isActive }) => (isActive ? "active" : "")}
             to="/"
           >
-            Home
+            Sākums
           </NavLink>
         </li>
         <li className="nav-item">
@@ -25,7 +26,7 @@ export default function Navbar(props) {
             className={({ isActive }) => (isActive ? "active" : "")}
             to="/about"
           >
-            About us
+            Par mums
           </NavLink>
         </li>
         <li className="nav-item">
@@ -33,12 +34,12 @@ export default function Navbar(props) {
             className={({ isActive }) => (isActive ? "active" : "")}
             to="/products"
           >
-            Products
+            Veikals
           </NavLink>
         </li>
         <li>
           <NavLink to="/cart" className="nav-item nav-cart btn btn-accent">
-            Cart ({cartCount})
+            Grozs ({cartCount})
           </NavLink>
         </li>
       </ul>

@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <div className="home-layout">
       <div>
-        <h1>Online shopping simplified</h1>
+        <h1>Bioloģiskais medus</h1>
         <p>
-          Order your groceries from <em>SuperM</em> with our easy to use app,
-          and get your products delivered straight to your doorstep.
+          Iegādājies bioloģisko medu no Mārtiņa bioloģiskās lauksaimniecības, kas jau vairākus gadus pastāv Madonas novadā.
+          
         </p>
         <Link to="/products" className="btn btn-default">
-          Start shopping
+          Iepirkties
         </Link>
       </div>
       <img
